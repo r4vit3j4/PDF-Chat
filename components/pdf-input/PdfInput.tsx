@@ -49,7 +49,7 @@ const PdfInput = () => {
 
       reader.readAsDataURL(file);
     }
-  }, [file]);
+  }, [file, dispatch]);
 
   return (
     <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
